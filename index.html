@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"/>
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav class="barra_nav">
+      <div class="barra_logo">
+        <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB_DZrKg4EaV-RkCa7I8WKIMnbWleRHvg68w&s" alt="Logo" />
+        <h1 class="nombre">LINAJE ESCOGIDO</h1>
+      </div>
+      <label for="menu_burger" class="label_burger">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="burger_icono" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+      </label>
+      <input type="checkbox" id="menu_burger" class="menu_burger" />
+      <ul class="ul_links">
+        <li class="il_links"><a href="http://127.0.0.1:5500/pagina%20Ender/index.html#1" class="link">INICIO</a></li>
+        <li class="il_links"><a href="#1" class="link">PROYECTOS</a></li>
+        <li class="il_links"><a href="#1" class="link">ACERCA DE</a></li>
+        <li class="il_links"><a href="http://127.0.0.1:5500/pagina%20Ender/contactos.html" class="link">CONTACTO</a></li>
+        <button class="btn" id="btn">CAMBIAR COLOR</button>
+      </ul>
+    </nav>
+    <nav class="img2">
+      <img src="https://dailyverses.net/images/simple/rvr60/1-pedro-2-9.png" width="1000" height="500" alt="" />
+    </nav>
+  </header>
+
+  <nav class="cuerpo">
+    <h1 class="port">PROYECTOS</h1>
+    <div class="container">
+      <div class="grid">
+        <h4>CREADOR DIGITAL</h4>
+        <div>
+          <a href="https://www.tiktok.com/@endersongonzalez22?_t=ZS-8ukA3JvZRFR&_r=1">
+            <img src="https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA" width="50" height="50" alt="" />
+          </a>
+          <a href="https://www.facebook.com/share/16T5wf6nMf/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/220px-2021_Facebook_icon.svg.png" width="50" height="50" alt="" />
+          </a>
+          <a href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png" width="50" height="50" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="grid">
+        <h1>EXPERIENCIA LABORAL</h1>
+        <div>
+          <h6>Empresa: Litigamos Abogados</h6>
+          <h6>Cargo: Supervisor de Cobranzas</h6>
+          <h6>Experiencia: 2021 - 2025</h6>
+        </div>
+      </div>
+
+      <div class="grid">
+        <h1>EDUCACIÓN</h1>
+        <div>
+          <h6>Primaria: I.E.D. Costa Caribe</h6>
+          <h6>Secundaria: I.E.D. Costa Caribe</h6>
+          <h6>Técnico: Aux. Contable y Financiero</h6>
+        </div>
+      </div>
+
+      <div class="grid"><h1>OPCIÓN 1</h1></div>
+      <div class="grid"><h1>OPCIÓN 2</h1></div>
+      <div class="grid"><h1>OPCIÓN 3</h1></div>
+    </div>
+  </nav>
+
+  <nav class="nav3">
+    <div class="contenedor">
+      <h1 class="list">Lista de Seguimiento</h1>
+      <div class="input-group">
+        <input id="taskInput" type="text" placeholder="Escribe una tarea y presiona Enter" />
+        <button id="addTaskBtn" title="Agregar tarea">
+          <svg width="20" height="20" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z" fill="white"/>
+          </svg>
+        </button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+  </nav>
+
+  <script src="java.js"></script>
+</body>
+</html>
